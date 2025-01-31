@@ -179,7 +179,7 @@ print("It's spelled as \"KING\"")
 print("\n")
 
 # \b -> Backspace
-print("Be the KIND\bG.")
+print("It's Im\b\bpossible")
 print("\n")
 
 # \v -> Vertical tab
