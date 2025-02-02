@@ -53,3 +53,6 @@ l1.remove(89)  # this will remove 89 from the list.
 print("\nAfter removing 89 from the list 'l1': ", l1)
 list.remove(3)  # this will remove 3 from the list.
 print("After removing 3 from the list 'list': ", list)
+
+# This function only works on the lists having all numerical values.
+print("\nAll the numbers in the list sums up to: ", sum(l1))
