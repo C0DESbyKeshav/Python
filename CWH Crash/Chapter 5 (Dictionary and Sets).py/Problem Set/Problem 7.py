@@ -9,6 +9,6 @@ for i in range(3, 5):
     print("\n")
 print(dict)
 
-# Conclusion:
+# * Conclusion:
 '''If a dictionary has two keys of the same name, then only one of those keys is considered.
 The decision of choosing one of the value from the two values having same key names is done by: The last updated key value is considered.'''
