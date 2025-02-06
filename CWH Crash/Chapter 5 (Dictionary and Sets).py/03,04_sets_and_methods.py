@@ -14,9 +14,8 @@ print("\n")
 # * PROPERTIES OF SETS:
 '''1. Sets are unordered.   // Element's order does'nt matter
 2. Sets are unindexed.      // Cannot access elements by index
-3. There is no way to change items in sets.
-4. Sets cannot contain duplicate values.
-5. Python sets are unordered, mutable, and do not allow duplicate elements.'''
+3. Sets cannot contain duplicate values.
+4. Python sets are unordered, mutable, and do not allow duplicate elements.'''
 
 # * OPERATIONS ON SETS:
 # 1️⃣ Creating a Set
