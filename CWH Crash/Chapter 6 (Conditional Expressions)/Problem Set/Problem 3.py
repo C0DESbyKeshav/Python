@@ -9,7 +9,7 @@ s2 = "buy now"
 s3 = "subscribe this"
 s4 = "click this"
 
-if((s1 in comment) || (s2 in comment) || (s3 in comment) || (s4 in comment)):
+if((s1 in comment) or (s2 in comment) or (s3 in comment) or (s4 in comment)):
 	print("You entered a spam comment.")
 else:
 	print("You entered a safe comment.")
