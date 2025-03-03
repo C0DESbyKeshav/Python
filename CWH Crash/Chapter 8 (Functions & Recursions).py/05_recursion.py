@@ -1,3 +1,5 @@
+# Recursion should always have a base condition or else it throws an error.
+
 def factorial(n):
     if n < 0:
         print("Factorial is not defined for negative numbers.")
