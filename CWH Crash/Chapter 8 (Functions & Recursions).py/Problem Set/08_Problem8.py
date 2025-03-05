@@ -6,6 +6,7 @@ def mul(n):
         if(n == int(n)): 
             print(f"{int(n)} x {i} = {int(n*i)}")
         else: 
+        
             print(f"{n} x {i} = {n*i}")
 
 
