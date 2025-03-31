@@ -1,18 +1,17 @@
+# Create two virtual environments, install few packages in the first one. How do you create the similar environment in the second one ?
 
-# * VIRTUAL ENVIRONMENT
-# An environment which is same as the system interpreter but is isolated from the other Python environments on the system.
-
+# * FOLLOW THE FOLLOWING STEPS:
 # * INSTALLATION
 ''' To use virtual environments, we write
 pip install virtualenv  --> Install the package
 
 We create a new environment using:
-virtualenv myEnvironment    --> Creates a new virtual environment
+virtualenv env    --> Creates a new virtual environment
 
 The next step after creating the virtual environment is to activate it.
 - Open the code folder in terminal
 - pip install pandas
-- .\myEnvironment\Scripts\activate.ps1
+- .\env\Scripts\activate.ps1
 
 We can now use this virtual environment as a separate python installation.'''
 
