@@ -20,5 +20,3 @@ print(" - ".join(fruits))
 # OR
 
 # print([fruits[i][0] for i in range(len(fruits))])
-
-# * Run any of the above lines of code to reveal the name [Recommended - First one]
