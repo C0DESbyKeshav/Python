@@ -9,6 +9,7 @@ time.sleep(2.5)
 pyautogui.hotkey('ctrl', 'f')
 pyautogui.typewrite("Neech")
 pyautogui.press("tab")
+time.sleep(5)  # for staying on the safer side, you can close the whatsapp windows in this time span.
 pyautogui.press("Enter")
 time.sleep(2)
 count = 1

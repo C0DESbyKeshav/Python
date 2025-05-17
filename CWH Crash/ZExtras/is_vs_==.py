@@ -23,3 +23,13 @@ print(a is b)  # True
 # In these cases, a and b are both pointing to the same object in memory, so is and == both return True.
 
 # * For mutable objects such as lists and dictionaries, is and == can behave differently. In general, you should use == when you want to compare the values of two objects, and use is when you want to check if two objects are the same object in memory.
+
+# NOTE - MOST IMP: 
+'''What is integer interning?
+Python pre-creates (or "caches") small integers in memory, so they can be reused. This range is usually:
+-5 to 256
+That means, anytime you use a number within this range, Python reuses the same memory object instead of creating a new one.
+
+-5 to 256 → Python caches those integers → same memory = is gives True
+Outside that range → new objects each time → is gives False
+'''
