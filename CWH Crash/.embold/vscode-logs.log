@@ -128,3 +128,22 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.361-b09, mixed mode)
 2025-02-26 22:25:46 info: Current installed embold extension version : 0.1.8
 2025-02-26 22:25:46 info: Latest embold extension version on marketplace : 0.1.6
 2025-02-26 23:46:42 info: Row(s) deleted
+2025-06-25 15:34:40 info: Congratulations, your extension "Embold" is now active!
+2025-06-25 15:34:40 info: ************* init ****************
+2025-06-25 15:34:40 info: tempDirectory : c:\Users\Keshav Mandal\.vscode\extensions\embold-vscode.embold-0.3.1\temp
+2025-06-25 15:34:48 info: Extraction complete for source: c:\Users\Keshav Mandal\.vscode\extensions\embold-vscode.embold-0.3.1\resources\embold-scanner-archive.zip, destination: c:\Users\Keshav Mandal\.vscode\extensions\embold-vscode.embold-0.3.1\temp
+2025-06-25 15:34:48 info: Extension installed on machine OS : win32
+2025-06-25 15:34:48 info: Fetched the issues from DB
+2025-06-25 15:34:48 error: request to https://v1.embold.io/api/plugins failed, reason: getaddrinfo ENOTFOUND v1.embold.io
+2025-06-25 15:34:48 info: Current installed embold extension version : 0.3.1
+2025-06-25 15:34:48 info: Latest embold extension version on marketplace : 0.2.1
+2025-06-25 15:34:48 info: Current extension version: 0.3.1
+2025-06-25 15:34:48 info: Stored extension version: 0.3.1
+2025-06-25 15:34:48 info: No new installation or upgrade detected. Skipping plugin activation tracking.
+2025-06-25 15:34:48 info: Java version installed on machine : 
+openjdk version "21.0.6" 2025-01-21 LTS
+OpenJDK Runtime Environment Temurin-21.0.6+7 (build 21.0.6+7-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.6+7 (build 21.0.6+7-LTS, mixed mode, sharing)
+
+2025-06-25 15:34:48 info: Java installed on machine.
+2025-06-25 15:44:20 info: Row(s) deleted
