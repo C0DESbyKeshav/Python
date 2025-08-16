@@ -87,10 +87,10 @@ for each_color in colors:
 
 # Happy Birthday message
 turtle.penup()
-turtle.goto(-150, 50)
+turtle.goto(-320, 100)
 turtle.color("pink")
 turtle.pendown()
 for i in range(50):
     turtle.color("Pink")
-    turtle.write("Happy Birthday! Bhai", move=False, align='left', font=('Arial', 25 , 'normal'))
+    turtle.write("Many Many Happy Returns of the Day Gul 🥳", move=False, align='left', font=('Arial', 25 , 'normal'))
 turtle.color("black")

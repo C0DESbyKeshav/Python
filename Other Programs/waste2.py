@@ -1,13 +1,13 @@
 import turtle
 
-suyog = turtle.Screen()
-suyog.bgcolor("black")
+ridhima = turtle.Screen()
+ridhima.bgcolor("black")
 one_piece = turtle.Turtle()
 one_piece.width(7)
 colors = ["#f5ac2f", "#279cf5", "#d820f5", "#a2f52f", "#f527c1"]
 
 
-def draw_suyog(i, x, y):
+def draw_ridhima(i, x, y):
     one_piece.pencolor("linen")
     one_piece.color(colors[i % 7])
     one_piece.lt(70)
@@ -21,7 +21,7 @@ def draw_suyog(i, x, y):
 def ballon(x, y):
     one_piece.pensize(4)
     for i in range(5):
-        draw_suyog(i, x, y)
+        draw_ridhima(i, x, y)
 
 
 def f1():
@@ -231,7 +231,7 @@ one_piece.pencolor("#319df5")
 mov(150, 205)
 one_piece.pencolor("#95ed28")
 style = ('Arial', 50, 'italic')
-one_piece.write("SUYOG", font=style)
+one_piece.write("RIDHIMA", font=style)
 
 one_piece.pencolor("cyan")
 one_piece.width(13)
@@ -263,4 +263,4 @@ move(160, -80)
 A(60)
 move(220, -80)
 Y(60)
-suyog.exitonclick()
+ridhima.exitonclick()
